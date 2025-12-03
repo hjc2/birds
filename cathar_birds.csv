@@ -1,0 +1,8 @@
+Species,CommonName,Order,IUCN_Status,HabitatGeneralistSpecialist,Nest_Location_>1,Nest_Structure_>1,General_Nesting_Location,General_Nesting_Structure,Nesting_On_Artificial,Nest_Elevation_Min,Nest_Elevation_Max,Urban_Nester_YN,Urban_Forager_YN,AcceptsProvisions_YN,Urban_NestMortality,Exurban_NestMortality,Urban_RangeSize,Exurban_RangeSize,Urban_Primary_Diet,Exurban_Primary_Diet
+Gymnogyps californianus,California Condor,Cathartiformes,CR,,,,,,,,,,,,,,,,,
+Sarcoramphus papa,King Vulture,Cathartiformes,LC,,,,,,,,,,,,,,,,,
+Vultur gryphus,Andean Condor,Cathartiformes,VU,,,,,,,,,,,,,,,,,
+Coragyps atratus,Black Vulture,Cathartiformes,LC,,,,,,,,,,,,,,,,,
+Cathartes aura,Turkey Vulture,Cathartiformes,LC,,,,,,,,,,,,,,,,,
+Cathartes burrovianus,Lesser Yellow-headed Vulture,Cathartiformes,LC,,,,,,,,,,,,,,,,,
+Cathartes melambrotus,Greater Yellow-headed Vulture,Cathartiformes,LC,,,,,,,,,,,,,,,,,
