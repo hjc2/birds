@@ -1,32 +1,26 @@
-# Birds of Prey Data Parser
-
-Simple tools to extract bird taxonomy data from HTML and convert it to CSV format.
-
-## Files
-
 ### Data Files
 
-**corpus.html** - Large HTML file containing taxonomy cards for 572+ birds of prey across multiple orders (vultures, hawks, owls, falcons)
+**corpus.html** - taken from the webpage
 
-**birds_corpus.csv** - Generated CSV with all bird species data in the "Birds of Prey Urban Niche Space" format
+**birds_corpus.csv** - csv from the file that i made
 
 ### Scripts
 
-**parse_taxonomy_to_csv.py** - Parse a single taxonomy HTML file (one bird family)
+**parse_taxonomy_to_csv.py** - parse a taxonomy file
 ```bash
 python3 parse_taxonomy_to_csv.py cathar.html
 ```
 
-**parse_corpus_to_csv.py** - Parse large HTML files with multiple bird families
+**parse_corpus_to_csv.py** - parse a file of concatenated taxonomies
 ```bash
 python3 parse_corpus_to_csv.py corpus.html
 ```
 
-## What Gets Extracted
+## Extracted Info
 
 - Scientific name
 - Common name
-- Taxonomic order (Cathartiformes, Accipitriformes, Strigiformes, Falconiformes)
-- IUCN conservation status (CR, EN, VU, NT, LC, etc.)
+- Taxonomic order
+- IUCN conservation status
 
-The CSV has 21 columns total - the script fills in the basic info and leaves the rest blank for manual data entry.
+Fills the rest of the columns, and leaves them blank
